@@ -8,12 +8,7 @@
     // $password = "";
     // $database = "c9";
     // $dbport = 3306;
-    $servername = "140.135.10.100";
-    $username = "root";
-    $password = "MCSL&Jsheh";
-    $database = "match_game";
-    $dbport = 3306;
-    
+
     // Create connection
     $db = new mysqli($servername, $username, $password, $database, $dbport);
 
